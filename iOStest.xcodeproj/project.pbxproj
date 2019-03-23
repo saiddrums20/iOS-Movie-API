@@ -15,6 +15,9 @@
 		D63D408B2235845400735353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63D40892235845400735353 /* LaunchScreen.storyboard */; };
 		D63D40962235845400735353 /* iOStestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D40952235845400735353 /* iOStestTests.swift */; };
 		D63D40A12235845400735353 /* iOStestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D40A02235845400735353 /* iOStestUITests.swift */; };
+		D63D40B222358BB500735353 /* NetworkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D40B122358BB500735353 /* NetworkProcessor.swift */; };
+		D63D40B422358BC600735353 /* projectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D40B322358BC600735353 /* projectService.swift */; };
+		D63D40B622358C3800735353 /* ProjectInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D40B522358C3800735353 /* ProjectInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D63D409C2235845400735353 /* iOStestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOStestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63D40A02235845400735353 /* iOStestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOStestUITests.swift; sourceTree = "<group>"; };
 		D63D40A22235845400735353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63D40B122358BB500735353 /* NetworkProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProcessor.swift; sourceTree = "<group>"; };
+		D63D40B322358BC600735353 /* projectService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = projectService.swift; sourceTree = "<group>"; };
+		D63D40B522358C3800735353 /* ProjectInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		D63D407C2235845200735353 /* iOStest */ = {
 			isa = PBXGroup;
 			children = (
+				D63D40AE223589C500735353 /* Modelos */,
 				D63D407D2235845200735353 /* AppDelegate.swift */,
 				D63D407F2235845200735353 /* ViewController.swift */,
 				D63D40812235845200735353 /* Main.storyboard */,
@@ -126,6 +133,16 @@
 				D63D40A22235845400735353 /* Info.plist */,
 			);
 			path = iOStestUITests;
+			sourceTree = "<group>";
+		};
+		D63D40AE223589C500735353 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				D63D40B322358BC600735353 /* projectService.swift */,
+				D63D40B522358C3800735353 /* ProjectInfo.swift */,
+				D63D40B122358BB500735353 /* NetworkProcessor.swift */,
+			);
+			path = Modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +279,9 @@
 				D63D40862235845200735353 /* iOStest.xcdatamodeld in Sources */,
 				D63D40802235845200735353 /* ViewController.swift in Sources */,
 				D63D407E2235845200735353 /* AppDelegate.swift in Sources */,
+				D63D40B222358BB500735353 /* NetworkProcessor.swift in Sources */,
+				D63D40B622358C3800735353 /* ProjectInfo.swift in Sources */,
+				D63D40B422358BC600735353 /* projectService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
